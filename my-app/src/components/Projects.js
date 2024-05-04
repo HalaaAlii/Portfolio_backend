@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/goose.jpg";
 import projImg2 from "../assets/img/shetribe.jpg";
 import projImg3 from "../assets/img/lendit.png";
-import colorSharp2 from "../assets/img/color-sharp2.png";
+import colorSharp2 from "../assets/img/5487834.jpg";
 
 import TrackVisibility from 'react-on-screen';
 
@@ -18,7 +18,7 @@ export const Projects = () => {
     },
     {
       title: "Social Media Platform",
-      description: "Design & Development",
+      description: "Development",
       imgUrl: projImg2,
     },
     {
@@ -29,6 +29,7 @@ export const Projects = () => {
   ];
 
   return (
+       <Container className="proj-bx wow zoomIn">
     <section className="project" id="projects">
       <Container>
         <Row>
@@ -78,7 +79,8 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+
     </section>
+       </Container>
   )
 }

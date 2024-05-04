@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/PIRATES_2_-_nikao-removebg-preview.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
 
@@ -67,7 +67,8 @@ export const Banner = () => {
                   <img src={headerImg} alt="Header Img"/>
                 </div>}
             </TrackVisibility>
-          </Col>
+            </Col>
+
         </Row>
       </Container>
     </section>

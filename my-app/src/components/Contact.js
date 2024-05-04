@@ -1,8 +1,9 @@
 import { useState } from "react";
-import 'animate.css';
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
+import 'animate.css'
+import contactImg from "../assets/img/Playground-removebg-preview.png";
 import TrackVisibility from 'react-on-screen';
+
 
 export const Contact = () => {
   const formInitialDetails = {
@@ -47,6 +48,7 @@ export const Contact = () => {
     <section className="contact" id="connect">
       <Container>
         <Row className="align-items-center">
+
           <Col size={12} md={5}>
             <TrackVisibility>
               {({ isVisible }) =>
