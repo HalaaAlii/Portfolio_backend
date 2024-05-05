@@ -1,17 +1,17 @@
 /************ Custom Font ************/
 @font-face {
 	font-family: Centra;
-	src: url('./assets/fonts/CentraNo2-Bold.ttf');
+	src: url('CentraNo2-Bold.ttf');
 	font-weight: 700;
 }
 @font-face {
 	font-family: Centra;
-	src: url('./assets/fonts/CentraNo2-Medium.ttf');
+	src: url('CentraNo2-Medium.ttf');
 	font-weight: 500;
 }
 @font-face {
 	font-family: Centra;
-	src: url('./assets/fonts/CentraNo2-Book.ttf');
+	src: url('CentraNo2-Book.ttf');
 	font-weight: 400;
 }
 
@@ -31,9 +31,11 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-image: url('./assets/img/5487834.jpg');
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
+    background-image: url('blue-gradient-background-abstract-memphis-style-with-retro-border.jpg');
+
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -92,7 +94,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #e5e3d9;
+backdrop-filter: blur(20px);
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -218,12 +220,12 @@ nav.navbar .navbar-toggler-icon:after {
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
 	transform: rotate(45deg);
-	background-color: #fff;
+	background-color: #c5c6c7;
 	height: 2px;
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 	transform: translateY(8px) rotate(-45deg);
-	background-color: #fff;
+	background-color: #c5c6c7;
 	height: 2px;
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
@@ -234,16 +236,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/5487834.jpg');
-  background-position: top center;
-  background-size: cover;
+background-image: url('8328155.jpg');
+     background-size: cover;
   background-repeat: no-repeat;
+  background-position: top center;
+
 }
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, #f26f39 -5.91%, #f17c6a 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
@@ -265,7 +268,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 96%;
 }
 .banner button {
-  color: #fff;
+  color: #c5c6c7;
   font-weight: 700;
   font-size: 20px;
   margin-top: 60px;
@@ -305,12 +308,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 0 50px 0;
   position: relative;
 }
+
 .skill-bx {
-  background: #151515;
+  backdrop-filter: blur(100cm);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: -60px;
+  margin-top: 60px;
 }
 .skill h2 {
 	font-size: 45px;
@@ -338,11 +343,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
- background: #151515;
+ backdrop-filter: blur(100cm);
+
 }
 
 .proj-bx {
- background: #151515;
+ backdrop-filter: blur(100cm);
+ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -463,7 +470,7 @@ background: linear-gradient(90.21deg, #f26f39 -5.91%, #f17c6a 111.58%);
 
 /************ Projects Css ************/
 .contact {
- background: linear-gradient(90.21deg, #f26f39 -5.91%, #f17c6a 111.58%);
+background: linear-gradient(90.21deg, #e9e1a0 -5.91%, #c7dfc5 111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -551,7 +558,7 @@ background: linear-gradient(90.21deg, #f26f39 -5.91%, #f17c6a 111.58%);
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  background-image: url('footer-bg.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

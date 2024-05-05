@@ -1,11 +1,19 @@
 import meter1 from "../assets/img/icons8-c++.svg";
 import meter2 from "../assets/img/icons8-js.svg";
 import leader from "../assets/img/woman-giving-an-election-speech-svgrepo-com.svg";
-import Team from "../assets/img/icons8-group-task-48.png";
-import Solver from "../assets/img/icons8-female-worker-48.png";
+import Team from "../assets/img/brainstorm_2967475.png";
+import Solver from "../assets/img/puzzle_1207867.png";
 import Html from "../assets/img/html-5.png";
+import Arduino from "../assets/img/motherboard_2729156.png" ;
+import RestAPI from "../assets/img/web-development.png";
+import Blockchain from "../assets/img/blockchain.png"
+import Projectmanagement from "../assets/img/assistant_12148685.png";
+import Office from "../assets/img/windows_2374606.png";
+import Fast from "../assets/img/idea_5709451.png";
+
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+
 
 export const Skills = () => {
   const responsive = {
@@ -35,7 +43,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>The skills I have gained from extracurriculurs and work experience <br></br> I'm looking to apply my invaluable soft and hard skills in Fall 2024 internship</p>
+                        <p>I have gained these skills from extracurriculars and work experience <br></br> I'm looking to apply and expand my invaluable soft and hard skills in a Fall 2024 internship!</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
@@ -49,6 +57,18 @@ export const Skills = () => {
                                 <img src={Html} alt="Image" />
                                 <h5>HTML/CSS</h5>
                             </div>
+                              <div className="item">
+                                <img src={Arduino} alt="Image" />
+                                <h5>Arduino</h5>
+                            </div>
+                              <div className="item">
+                                <img src={Office} alt="Image" />
+                                <h5>Office 365</h5>
+                            </div>
+                             <div className="item">
+                                <img src={Blockchain} alt="Image" />
+                                <h5>Blockchain Fundamentals</h5>
+                            </div>
                             <div className="item">
                                 <img src={leader} alt="Image" />
                                 <h5>Leader</h5>
@@ -61,12 +81,25 @@ export const Skills = () => {
                                 <img src={Solver} alt="Image" />
                                 <h5>Problem Solver</h5>
                             </div>
+
+                              <div className="item">
+                                <img src={Fast} alt="Image" />
+                                <h5>Fast Learner</h5>
+                            </div>
+                              <div className="item">
+                                <img src={Projectmanagement} alt="Image" />
+                                <h5>Project Management</h5>
+                            </div>
+                             <div className="item">
+                                <img src={RestAPI} alt="Image" />
+                                <h5>REST API's</h5>
+                            </div>
+
                         </Carousel>
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
   )
 }
