@@ -10,7 +10,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Hala" ,"an Engineer", "a Web Designer", "a Leader" ];
+  const toRotate = [ "Hala" ,"an Engineer", "a Developer", "a Gaming Enthusiast", "a Leader" ];
   const period = 2000;
 
   useEffect(() => {
@@ -54,7 +54,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h1>{"Hi, I'm "} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Hala!", "an Engineer", "a Web Designer", "a Leader" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{"Hi, I'm "} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Hala!", "an Engineer", "a Developer", "a Gaming Enthusiast", "a Leader" ]'><span className="wrap">{text}</span></span></h1>
                 <p>I'm an undergrad pursuing Electrical Engineering at the University of Waterloo. While enrolled in the Co-op program, my goal is to experience as many different roles and positions as the employers will allow me. I NEED TO KNOW IT ALL BEFORE MY TIME ON THIS EARTH EVANESCES.</p> <p> It's your turn to tell me about yourself !</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
