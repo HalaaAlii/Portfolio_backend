@@ -41,7 +41,7 @@ export const Projects = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
                 <p>
-Taking on personal projects has been my most effective learning method. I thrive on hands-on experiences. Through building these projects (including this portfolio), I've discovered that the most valuable lessons are learned in the process of creation itself. Each project is not just a product but also a journey of my continuous learning and growth!</p>
+Taking on personal projects has been my most effective learning method. I thrive on hands-on experiences. Through building these projects, I've discovered that the most valuable lessons are learned in the process of creation itself. Each project is not just a product but also a journey of my continuous learning and growth!</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
