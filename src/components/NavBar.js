@@ -51,7 +51,6 @@ export const NavBar = () => {
                 <a href="https://www.linkedin.com/in/halaaalii/"><img src={navIcon1} alt="" /></a>
               </div>
               <HashLink to='#connect'>
-                <button className="vvd" onClick={() => console.log ('connect')}><span>Let’s Connect</span></button>
               </HashLink>
             </span>
           </Navbar.Collapse>
